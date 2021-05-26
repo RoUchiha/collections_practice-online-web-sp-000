@@ -23,7 +23,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each { |word| word[2] = "$"
+  array.each { |word| word[2] = "$";
   new_array << word }
   new_array
 end
