@@ -27,3 +27,7 @@ def kesha_maker(array)
   new_array << word }
   new_array
 end
+
+def find_a(array)
+  
+end
