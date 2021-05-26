@@ -38,9 +38,8 @@ end
 
 def add_s(array)
   new_array = []
-  array.each { |word| 
+  array.each { |word| next if word == array[1];
   word << "s";
-  
   new_array << word }
   
 end
